@@ -19,6 +19,7 @@ public class UITextbook : MonoBehaviour
     {
         TextbookPanel.SetActive(true);
         DictionaryPanel.SetActive(true);
+        notePanel.SetActive(false);
 
         foreach (Transform child in DictionaryPanel.transform)
         {
