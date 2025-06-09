@@ -51,7 +51,7 @@ public class UITextbook : MonoBehaviour
             GameObject note = Instantiate(notePrefab, contextPanel.transform);
 
             TMP_Text[] texts = note.GetComponentsInChildren<TMP_Text>();
-            texts[0].text = obj.Date.ToString();
+            texts[0].text = "Ночь " + obj.Date.ToString();
             texts[1].text = obj.Note;
         }
     }
